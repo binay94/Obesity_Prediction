@@ -6,12 +6,23 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #d9bbf5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #bd64f0;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h1 {
-            color: #333;
+            color: #08020e;
+            margin-bottom: 20px;
         }
         p {
-            color: #666;
+            color: #100c0c;
             margin-bottom: 10px;
         }
         .btn {
@@ -29,10 +40,10 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
-    
-    <h2>Click the button below to go to the prediction form.</h2>
-    <a href="/predict" class="btn">Go to Prediction Form</a>
+    <div class="container">
+        <h1>Welcome to the Home Page</h1>
+        <p>Explore and use our prediction services!</p>
+        <a href="/predict" class="btn">Go to Prediction Form</a>
+    </div>
 </body>
 </html>
-

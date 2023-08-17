@@ -3,6 +3,7 @@ pandas
 matplotlib
 seaborn
 flask
-scikit-learn
+scikit-learn == 1.2.2
 pyproj
 -e .
+urllib3 == 1.26.14
